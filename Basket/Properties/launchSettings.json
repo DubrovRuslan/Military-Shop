@@ -1,13 +1,13 @@
 {
   "profiles": {
-    "MVC": {
+    "Basket": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
       "dotnetRunMessages": true,
-      "applicationUrl": "https://localhost:5001"
+      "applicationUrl": "https://localhost:7000;http://localhost:5161"
     },
     "IIS Express": {
       "commandName": "IISExpress",
@@ -31,8 +31,8 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:53498",
-      "sslPort": 44323
+      "applicationUrl": "http://localhost:48911",
+      "sslPort": 44308
     }
   }
 }
